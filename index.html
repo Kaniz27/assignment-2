@@ -8,7 +8,6 @@
 </head>
 <body>
     <header class="header">
-       
         <div class="nav-class">
            <div class="logo">
              <img src="assets/logo.png" alt="">
@@ -16,36 +15,37 @@
     </div>
     
     <nav class="navbar">
-        <ul>
+        <ul class="item">
             <li><a class="home" href="#">Home</a></li>
             <li><a class="about" href="#">About</a></li>
             <li><a class="facilites" href="#">Facilites</a></li>
             <li><a class="admission" href="#">Admission</a></li>
         </ul>
-        <button class="nav-btn">Contact</button>
+         <div>
+            <button class="nav-btn">Contact</button>
+        </div>
        
     </nav>
-    
-        
-            <!-- <button class="nav-btn">Contact</button> -->
             <div class="toggle-btn" onclick="toggleMenu()">☰</div>
         </div>
-        <!-- <div class="toggle-btn" onclick="toggleMenu()">☰</div> -->
     </div>
     </header>
-    <!-- <hr class="break"> -->
+    <main>
+      <div class="banner"> 
+        <div class="container"> 
+            <h1><span class="head">Empowering</span><br>
+            students from <br> small age <span class="head-1">towards vision</span></h1>
+    <p class="title-description">With the courage, Confidence, Creativity and Compassion to make <br> their Unique Contribution in a Diverse and Dynamic World.</p>
+    <button class="container-btn">Enroll Now</button>
+</div>
+    <img src="assets/hero-kids.png" alt="Responsive Image">
+</div> 
+    </main>
     <script>
         function toggleMenu() {
             const menu = document.querySelector('.navbar ul');
             menu.classList.toggle('show');
         }
-    </script>
-
-    
-
-    <main>
-        
-    </main>
-    
+    </script>   
 </body>
 </html>
