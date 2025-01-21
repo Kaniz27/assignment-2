@@ -8,26 +8,38 @@
 </head>
 <body>
     <header class="header">
-        
+       
         <div class="nav-class">
            <div class="logo">
              <img src="assets/logo.png" alt="">
-        <h1>School</h1>
+        <h1 class="heading">SCHOOL</h1>
     </div>
-    <nav>
+    
+    <nav class="navbar">
         <ul>
-            <li><a class="home" href="#home">Home</a></li>
-            <li><a class="about" href="#about">About</a></li>
-            <li><a class="Facilities" href="#Facilities">Facilities</a></li>
-            <li><a class="Facilities" href="#Admission">Admission</a></li>
+            <li><a class="home" href="#">Home</a></li>
+            <li><a class="about" href="#">About</a></li>
+            <li><a class="facilites" href="#">Facilites</a></li>
+            <li><a class="admission" href="#">Admission</a></li>
         </ul>
+        <button class="nav-btn">Contact</button>
+       
     </nav>
-        <div>
-            <button class="nav-btn">Contact</button>
+    
+        
+            <!-- <button class="nav-btn">Contact</button> -->
+            <div class="toggle-btn" onclick="toggleMenu()">☰</div>
         </div>
-
+        <!-- <div class="toggle-btn" onclick="toggleMenu()">☰</div> -->
     </div>
     </header>
+    <!-- <hr class="break"> -->
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar ul');
+            menu.classList.toggle('show');
+        }
+    </script>
 
     
 
