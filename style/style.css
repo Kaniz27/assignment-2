@@ -179,7 +179,7 @@ nav ul li a {
 }
 
 .card{
-    background-color: #edfaff;
+    background: linear-gradient(to right, skyblue, rgb(255, 0, 234));
     padding:32px 32px;
     border-radius: 12px;
 
@@ -194,7 +194,7 @@ nav ul li a {
     border: none;
 }
 .card1{
-    background-color: #edfaff;
+    background: linear-gradient(to right, orange, rgb(145, 255, 0));
     padding:32px 32px;
     border-radius: 12px;
 
@@ -209,7 +209,7 @@ nav ul li a {
     border: none;
 }
 .card2{
-    background-color: #edfaff;
+    background: linear-gradient(to right, rgb(135, 182, 235), rgb(255, 0, 234));
     padding:32px 32px;
     border-radius: 12px;
 
@@ -224,20 +224,31 @@ nav ul li a {
     border: none;
 }
 /* icon */
-.icon{
-    height: 10%;
-    /* width: 100%; */
+.icon-img{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 /* story */
+.story-title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .story{
     display: flex;
     gap: 24px;
     background-image: url(/assets/bg.png);
+    width:50%
 }
 .story2{
     display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  width: 50%;
 }
 .first-title{
     color: black;
@@ -264,6 +275,9 @@ nav ul li a {
     margin-top: 50px;
 }
 .footer-btn{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 15px;
     font-weight: bold;
     color: #ffffff;
@@ -271,15 +285,17 @@ nav ul li a {
     border-radius: 4px;
     padding: 5px 15px;
     border: none;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    cursor: pointer;
+}
+.footer-button{
+    margin: 0 auto;
+    text-align: center;
 }
 /* footer */
 .footer{
-    background-color: skyblue;
-    padding: 70px 50px;
-    
+    background-image: url(/assets/bg.png);
+    background: linear-gradient(to right, rgb(158, 235, 135), rgb(255, 208, 0));
+    padding: 70px 50px;   
 }
 .logo-flex{
     display: flex;
