@@ -273,7 +273,38 @@ nav ul li a {
     border: none;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
+/* footer */
+.footer{
+    background-color: skyblue;
+    padding: 70px 50px;
+    
+}
+.logo-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+
+}
+.heading-item{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.navbar{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
     /* Responsive Styles */
     @media (max-width: 768px) {
         .navbar ul ,.nav-btn ,.heading {
