@@ -148,7 +148,132 @@ nav ul li a {
 .toggle-btn {
     display: none;
     font-size: 1.5rem;
-    cursor: pointer;}
+    cursor: pointer;
+}
+/* card */
+.title{
+    background-image: url(/assets/bg.png);
+    color: #000000;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    gap: 30px;
+    /* background-image: url(/assets/bg.png); */
+}
+.card-title{
+    font: 24px;
+    font-size: bold;
+    color: #0E0E0E;
+}
+.card-description{
+    font-size: 16px;
+    font: 300;
+    color: #0E0E0E;
+    padding: 15px 0;
+}
+
+.card{
+    background-color: #edfaff;
+    padding:32px 32px;
+    border-radius: 12px;
+
+}
+.card-button{
+    font-size: 16px;
+    font: 500;
+    color: #ffffff;
+    background-color: #64c8ff;
+    border-radius: 4px;
+    padding: 5px 7px;
+    border: none;
+}
+.card1{
+    background-color: #edfaff;
+    padding:32px 32px;
+    border-radius: 12px;
+
+}
+.card-button1{
+    font-size: 16px;
+    font: 500;
+    color: #ffffff;
+    background-color: orange;
+    border-radius: 4px;
+    padding: 5px 7px;
+    border: none;
+}
+.card2{
+    background-color: #edfaff;
+    padding:32px 32px;
+    border-radius: 12px;
+
+}
+.card-button2{
+    font-size: 16px;
+    font: 500;
+    color: #ffffff;
+    background-color: #8700ff;
+    border-radius: 4px;
+    padding: 5px 7px;
+    border: none;
+}
+/* icon */
+.icon{
+    height: 10%;
+    /* width: 100%; */
+}
+/* story */
+.story{
+    display: flex;
+    gap: 24px;
+    background-image: url(/assets/bg.png);
+}
+.story2{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.first-title{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.first-description{
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    margin-top: 100px;
+}
+.card-content{
+    background-color: #edfaff;
+    padding:32px 32px;
+    border-radius: 20px;
+}
+.second-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+}
+.footer-btn{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 4px;
+    padding: 5px 15px;
+    border: none;
+    align-items: center;
+    margin-top: 40px;
+}
     /* Responsive Styles */
     @media (max-width: 768px) {
         .navbar ul ,.nav-btn ,.heading {
@@ -173,5 +298,17 @@ nav ul li a {
         margin-bottom: 15px;
 
     }
-    
+    h1 {
+        font-size: 2rem; /* Smaller font for tablets */
+    }
+    p {
+        font-size: 1rem; /* Smaller font for tablets */
+    }
+    .container-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px; 
+    }
+    .banner-img{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
